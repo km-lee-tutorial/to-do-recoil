@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/to-do-recoil/static/js/main.8d5a65e3.chunk.js",
-    "main.js.map": "/to-do-recoil/static/js/main.8d5a65e3.chunk.js.map",
+    "main.js": "/to-do-recoil/static/js/main.d0248b06.chunk.js",
+    "main.js.map": "/to-do-recoil/static/js/main.d0248b06.chunk.js.map",
     "runtime-main.js": "/to-do-recoil/static/js/runtime-main.ea678128.js",
     "runtime-main.js.map": "/to-do-recoil/static/js/runtime-main.ea678128.js.map",
     "static/js/2.c72e3c94.chunk.js": "/to-do-recoil/static/js/2.c72e3c94.chunk.js",
@@ -12,6 +12,6 @@
   "entrypoints": [
     "static/js/runtime-main.ea678128.js",
     "static/js/2.c72e3c94.chunk.js",
-    "static/js/main.8d5a65e3.chunk.js"
+    "static/js/main.d0248b06.chunk.js"
   ]
 }
