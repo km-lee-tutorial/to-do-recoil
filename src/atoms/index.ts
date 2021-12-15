@@ -1,15 +1,18 @@
 import { atom, selector } from 'recoil';
 
-export enum Categories {
-  'TO_DO' = 'TO_DO',
-  'DOING' = 'DOING',
-  'DONE' = 'DONE',
-}
+export const Categories = {
+  TO_DO: 'TO_DO' as const,
+  DOING: 'DOING' as const,
+  DONE: 'DONE' as const,
+};
+
+// Categories Type
+type CategoriesType = typeof Categories[keyof typeof Categories];
 
 export interface IToDo {
   text: string;
   id: number;
-  category: Categories;
+  category: CategoriesType;
 }
 
 export const isDarkAtom = atom<boolean>({
@@ -17,7 +20,7 @@ export const isDarkAtom = atom<boolean>({
   default: true,
 });
 
-export const categoryState = atom<Categories>({
+export const categoryState = atom<CategoriesType>({
   key: 'category',
   default: Categories.TO_DO,
 });
